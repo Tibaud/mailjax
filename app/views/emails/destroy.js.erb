@@ -1,0 +1,4 @@
+$('#emails').html("<%= j (render 'emails/index') %>");
+$('.delete_email').bind('ajax:success', function() {
+   $(this).closest('div').fadeOut();
+});

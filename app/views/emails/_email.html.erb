@@ -1,0 +1,6 @@
+<div class="">
+<h1> Object: <br/>
+<%= email.object %> </h1>
+<p class="text-justify emailBody"> <%= email.body %> </p>
+<p class="btn btn-danger"><%= link_to 'Delete Email', email, :remote => true, :class => 'delete_email', method: :delete, data: { confirm: 'Are are you sure?' } %></p>
+</div>

@@ -1,0 +1,11 @@
+<% if @emails.any? %>
+    <% @emails.each do |email| %>
+        <tr>
+            <td>
+                <%= link_to email.object, email, :remote => true, class:"objet" , :onclick => "this.style.fontWeight='normal'" %>
+            </td>
+        </tr>
+    <% end %>
+<% else %>
+  <p>Qui m'a effacé tous mes mails sérieux ?</p>
+<% end %>
