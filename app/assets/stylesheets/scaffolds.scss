@@ -10,69 +10,21 @@ body {
   line-height: 18px;
 }
 
-
-pre {
-  background-color: #eee;
-  padding: 10px;
-  font-size: 11px;
-}
-
 a {
   color: #000;
   font-weight: bold;
 }
 
-
-th {
-  padding-bottom: 5px;
-}
-
 td {
   padding: 0 5px 7px;
-  height: 40px;
-  background-color:#fff;
+  height: 20px;
   .objet {
     padding: 5px 0;
   }
 }
 
-div {
-  &.field, &.actions {
-    margin-bottom: 10px;
-  }
-}
-
 #notice {
-  color: green;
-}
-
-.field_with_errors {
-  padding: 2px;
-  background-color: red;
-  display: table;
-}
-
-#error_explanation {
-  width: 450px;
-  border: 2px solid red;
-  padding: 7px 7px 0;
-  margin-bottom: 20px;
-  background-color: #f0f0f0;
-
-  h2 {
-    text-align: left;
-    font-weight: bold;
-    padding: 5px 5px 5px 15px;
-    font-size: 12px;
-    margin: -7px -7px 0;
-    background-color: #c00;
-    color: #fff;
-  }
-
-  ul li {
-    font-size: 12px;
-    list-style: square;
-  }
+  color: blue;
 }
 
 label {
@@ -81,10 +33,22 @@ label {
 
 .email-content {
   height: 100%;
+  min-height: 400px;
   padding: 20px;
   background-color: #E8E8E8;
 }
 
-.emailBody {
-  padding: 80px;
+.row {
+  background-color: rgb(232,232,232);
+}
+h2 {
+  margin-top: 10px;
+}
+.btn-danger, .btn-danger:hover {
+    color: #fff;
+    background-color: #FFF;
+    border-color: #FFF;
+}
+.col-md-3 {
+  background-color: rgb(200,200,200);
 }
